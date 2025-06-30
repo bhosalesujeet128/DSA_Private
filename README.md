@@ -19,3 +19,5 @@ Java provides many built-in methods to manipulate strings like
 - `str.toLowerCase()` : convert the given string in lower case.
 - `Character.toUpperCase()` : convet the given character in upper case.
 - `.append()` : is a method used with StringBuilder or StringBuffer to add text at the end of the existing content.
+
+### Arrays
