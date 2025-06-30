@@ -17,3 +17,5 @@ Java provides many built-in methods to manipulate strings like
 - `str1.compareTo(str2)` : if = 0 ->(str1=str2), if < 0 -> (str1 < str2), if > 0 -> (str1 > str2)
 - `str.toUpperCase()` : convert the given string in upper case.
 - `str.toLowerCase()` : convert the given string in lower case.
+- `Character.toUpperCase()` : convet the given character in upper case.
+- `.append()` : is a method used with StringBuilder or StringBuffer to add text at the end of the existing content.
