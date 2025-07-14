@@ -151,7 +151,7 @@ public class Recursion {
         return tota_pair;
 
     }
-    // 14) Print all binary strings of size N without consecutive ones.
+    // 14) Print all binary strings of size N without consecutive ones(11 not allowed 10100 like this allowed).
     public static void Binary_string(int n,int lastplace ,String str){
         if (n == 0) {
             System.out.println(str);
@@ -164,23 +164,9 @@ public class Recursion {
             }
         }
     }
-    public static String up(String str){
-        StringBuilder sb = new StringBuilder("");
+  
 
-        Character ch = Character.toUpperCase(str.charAt(0));
-        sb.append(ch);
 
-        for(int i = 1; i<str.length(); i++){
-            if (str.charAt(i) == ' ') {
-                sb.append(str.charAt(i));
-                i++;
-                sb.append(Character.toUpperCase(str.charAt(i)));
-            }else{
-                sb.append(str.charAt(i));
-            }
-        }
-        return sb.toString();
-    }
     
     public static void main(String[] args) {
         //int n = 6;
@@ -209,9 +195,9 @@ public class Recursion {
 
         // System.out.println(Friends(5));
 
-        //Binary_string(3, 0, "");
-        String str = "hi, i am sujeet";
-        System.out.println(up(str));
+        Binary_string(3, 0, "");
+        
+
         
 
     }

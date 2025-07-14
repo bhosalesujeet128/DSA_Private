@@ -1,5 +1,5 @@
 public class DivideNConquer {
-
+    //  1) MargSort
     public static void meargsort(int arr[], int si, int ei) {
         if (si>=ei) {
             return;
@@ -39,7 +39,7 @@ public class DivideNConquer {
             arr[i]=temp[k];
         }
     }
-
+    // print function.
     public static void Print(int arr[]){
         for(int i=0; i<arr.length; i++){
             System.out.print(arr[i]+" ");
@@ -47,6 +47,7 @@ public class DivideNConquer {
         System.out.println();
     }
 
+    //  2) QuickSort.
     public static void Quicksort(int arr[], int si, int ei){
          if (si>=ei) {
             return;
@@ -75,6 +76,7 @@ public class DivideNConquer {
         return i;
     }
 
+    // 3) search the key in sorted and rotated array...
     public static int Search(int arr[], int taret, int si, int ei){
         if (si>ei) {
             return -1;
@@ -115,9 +117,9 @@ public class DivideNConquer {
         // Quicksort(arr, 0, arr.length-1);
         //  Print(arr);
 
-        int arr[]={4,5,6,7,0,1,2};
-        int taret =22;
-        int ind = Search(arr, taret, 0, arr.length-1);
-        System.out.println(ind);
+        // int arr[]={4,5,6,7,0,1,2};
+        // int taret =22;
+        // int ind = Search(arr, taret, 0, arr.length-1);
+        // System.out.println(ind);
     }
 }
