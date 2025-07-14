@@ -1,7 +1,16 @@
 # Dsa
 ### OOP
 
-## access modifier
+**Classes and object**
+A class is basically a blueprint or template for creating objects. It defines the structure—like what properties (variables) and behaviors (methods) an object of that type will have.  
+An object is an actual instance of that class  
+**constructor**
+A constructor in Java is a special block of code that gets called automatically when you create an object using the new keyword. Its main job is to initialize the object—either by setting default values or accepting values from the user.  
+Unlike regular methods, constructors:  
+- Have the same name as the class
+- Don’t have a return type, not even void
+
+**Access Modifier**
 |Access Modifier | within class |within package |outside package by subclass only | outside package |
 | --- | --- | --- | --- |--- |
 |Private | Y |N |N | N |
