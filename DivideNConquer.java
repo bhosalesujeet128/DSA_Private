@@ -36,7 +36,7 @@ public class DivideNConquer {
         }
 
         for(k=0,i=si; k<temp.length; k++,i++){
-            arr[i]=temp[k];
+            arr[i]=temp[k]; 
         }
     }
     // print function.
