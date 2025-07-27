@@ -157,7 +157,7 @@ public class Arrays {
             if (currentsum < 0) {
                 currentsum = 0;
             }
-            System.out.println(currentsum);
+           
             if (maxsum < currentsum) {
                 maxsum = currentsum;
             }
@@ -209,7 +209,7 @@ public class Arrays {
         return maxprofit;
     }
     public static void main(String[] args) {
-        // int arr[] = {2,4,6,8,10};
+        //  int arr[] = {2,4,6,8,10};
         // int key = 53;
         // System.out.println("key is at index : "+Linear_search(arr, key));
         // System.out.println("largest number in arr is : "+Largest(arr));
@@ -222,8 +222,8 @@ public class Arrays {
         // }
 
         // Pairs(arr);
-        // Subarrays(arr);
-
+        //  Subarrays(arr);
+        
         // MaxSubarrSum(arr);
         // MaxSubarrSumPrefixArr(arr);
         // Kadan(arr);
@@ -234,8 +234,8 @@ public class Arrays {
         // int price[] = {7,1,5,3,6,4};
         // System.out.println(buyandsellstocks(price));
 
-        int arr[]={10,5,8,20,6,20,9};
-        Second_largest(arr);
+        // int arr[]={10,5,8,20,6,20,9};
+        // Second_largest(arr);
        
     }
 }

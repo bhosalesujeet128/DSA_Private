@@ -78,8 +78,8 @@ public class strings {
         // String example = "racecar";        
         // System.out.println(Ispalindrome(example));
 
-        // String sp = "WNEENESENNN";
-        // Shortest_path(sp);
+        String sp = "WNEENESENNN";
+        Shortest_path(sp);
 
         // String fruit[]= {"apple","applf" };
         // Largest_String(fruit);

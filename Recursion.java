@@ -188,14 +188,14 @@ public class Recursion {
         // int n = 3;
         // System.out.println(powerOp(x, n));
 
-        // System.out.println(tilling(5));
+         System.out.println(tilling(5));
         
         // String str = "appnnacollege";
         // Remove_Duplicate(str, new StringBuilder(""), new boolean[26], 0);
 
         // System.out.println(Friends(5));
 
-        Binary_string(3, 0, "");
+        // Binary_string(3, 0, "");
         
 
         

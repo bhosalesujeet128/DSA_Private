@@ -53,6 +53,7 @@ public class Arrays2D {
         // }
         for (int i = 0; i < arr.length; i++) {
             sum += arr[i][i];
+            // if i is not equel to j, because i,i is added already.
             if (i != arr.length - 1 - i) {
                 sum += arr[i][arr.length - 1 - i];
             }
